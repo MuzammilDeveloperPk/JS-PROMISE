@@ -1,0 +1,223 @@
+#box span{
+    text-shadow: 0px 0px 10px #5cfaff,
+                 0px 0px 20px #5cfaff,
+                 0px 0px 40px #5cfaff,
+                 0px 0px 80px #5cfaff;
+    color: #5cfaff;
+    font-size: 50px;
+    
+    
+}
+
+
+#box h1 {
+    text-shadow: 0px 0px 10px red,
+                 0px 0px 20px red,
+                 0px 0px 40px red,
+                 0px 0px 80px red;
+    color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#box .h001 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#box .h002 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: -190px 10px 190px 10px;
+}
+
+
+
+
+footer{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+    padding: 40px 80px;
+    background: transparent;
+    align-items: center;
+    justify-content: space-around;
+}
+
+footer .container1 {
+    display: flex;
+    width: 100%;
+    height: 250px;
+    /* border: 1px solid red; */
+}
+
+footer .container1 .brand-details {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 50%;
+}
+
+footer .container1 .brand-details .brand{
+    display: flex;
+    height: 120px;
+    width: 100%;
+    align-items: center;
+    justify-content: left;
+}
+
+footer .container1 .brand-details .brand .logo{
+    display: flex;
+    height: 50%;
+    width: 90px;
+}
+
+footer .container1 .brand-details .brand .logo img{
+    display: flex;
+    height: 115%;
+    width: 83%;
+}
+
+footer .container1 .brand-details .brand .brand-name{
+    display: flex;
+    width: auto;
+    height: 80%;
+    align-items: center;
+    justify-content: left;
+}
+
+footer .container1 .brand-details .brand .brand-name h1{
+    display: flex;
+    font-size: 40px;
+    color: #FFDC00;
+    letter-spacing: 2px;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 0px 0px 10px red,
+                 0px 0px 20px red,
+                 0px 0px 40px red,
+                 0px 0px 80px red;
+
+}
+
+footer .container1 .brand-details p{
+display: flex;
+flex-wrap: wrap;
+font-size: 14px;
+color: #252525;
+line-height: 20px;
+}
+
+footer .container1 .brand-details p .span02{
+    color: red;
+    font-weight: bold;
+    text-shadow: 0px 0px 10px aliceblue,
+                 0px 0px 20px aliceblue,
+                 0px 0px 40px aliceblue,
+                 0px 0px 80px aliceblue;
+}
+
+footer .container1 .address{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+
+}
+
+footer .container1 .address .location, footer .container1 .address .mail {
+    display: flex;
+    height: 50px;
+    width: 300px;
+    font-size: 14px;
+    color: #252525;
+    margin: 5px 0;
+    align-items: center;
+    justify-content: left;
+}
+
+footer .container1 .address .location ion-icon, footer .container1 .address .mail ion-icon {
+    display: flex;
+    font-size: 25px;
+    color: gold;
+    margin-right: 20px;
+
+}
+
+footer .container2 {
+    display: flex;
+    height: 100px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    /* border: 1px solid red; */
+
+}
+
+footer .container2 .copyright{
+    display: flex;
+    height: 80%;
+    width: auto;
+    font-size: 16px;
+    color: #252525;
+    align-items: center;
+    justify-content: left;
+
+}
+
+footer .container2 .social{
+    display: flex;
+    width: 250px;
+    height: 80%;
+
+}
+
+footer .container2 .social ul{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+footer .container2 .social ul li a{
+    display: flex;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: #ff4321;
+    align-self: center;
+    justify-content: center;
+    color: white;
+    cursor: pointer;
+    
+}
+
+footer .container2 .social ul li a:hover{
+    background: transparent;
+}
+
+footer .container2 .social ul li a ion-icon{
+    display: flex;
+    font-size: 43px;
+    border-radius: 50%;
+}
+
+footer .container2 .social ul li:hover:nth-child(1) a ion-icon{
+    color: blue;
+}
+footer .container2 .social ul li:hover:nth-child(2) a ion-icon{
+    color: rgb(104, 0, 104);
+}
+footer .container2 .social ul li:hover:nth-child(3) a ion-icon{
+    color: deepskyblue;
+}
+footer .container2 .social ul li:hover:nth-child(4) a ion-icon{
+    color: #E4405F;
+}
